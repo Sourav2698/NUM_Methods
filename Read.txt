@@ -1,0 +1,54 @@
+*************************************************
+Name - SOURAV BERA		Roll No. - 16053
+*************************************************
+
+
+Polynomial Root Finding methods :
+**********************************
+
+
+Given Polynomial Equation : Pn(x) = 9*x^4 + 30*x^3 + 34*x^2 + 30*x + 25 = 0
+
+1) BIRJE-VIETA METHOD :
+==========================
+
+OUTPUT:
+--------
+Root no. - 1 after 20 iterations is -1.66667
+Root no. - 2 after 1 iterations is -1.66667
+No more roots found: Maximum iterations reached ! 
+
+REMARKS: 
+---------
+The Birje-Vieta method is used to find all real roots of a polynomial equation, but this method is not applicable to 
+find the complex roots. Using the algorithm, only two equal roots (-1.66667) of the polynomial equation are found. 
+Although this is a 4th order polynomial, we obtain only 2 roots. So, it can be inferred that the other two roots are 
+complex and hence cannot be obtained by this method.
+
+
+
+
+
+2) GRAEFFE'S METHOD :
+=======================
+
+OUTPUT:
+--------
+Root no. 1 is  : -1.66723
+Root no. 2 is  : -1.6661
+Root no. 3 is complex with modulus : 1.00034
+Root no. 4 is complex with modulus : 0.999662
+
+REMARKS:
+---------
+The Graeffe's method gives only the modulus of the roots. To find the sign of the roots we check the value of the polynomial function
+at the mod values of the roots. If the functional value is greater than a desired tolerance, it will be identified as a negative
+root. The functional value is also checked for the negative value. Two negative real roots (-1.66723 and -1.6661) are obtained. Descartes 
+Rule of Signs supports two or less (even) number of negative roots of the given polynomial. Also, the values of the polynomial for
+the other two roots (3 & 4) obtained is found to be much larger than the tolerance value (both with negative and positive sign). Thus, 
+the rest two roots obtained are identified as the modulus of two complex roots of the polynomial.  
+
+
+
+
+ 
